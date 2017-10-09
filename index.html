@@ -66,7 +66,7 @@
                     <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
                     <dd><strong>个人信息:</strong> <span>谢虹宇 / 女</span></dd>
                     <dd><strong>毕业院校:</strong> <span>东北大学(2010-2014)</span></dd>
-                    <dd><strong>院校性质:</strong> <span>教育部直属国家首批985、211重点建设院校</span></dd>
+                    <dd><strong>院校性质:</strong> <span>985、211</span></dd>
                     <dd><strong>主修专业:</strong> <span>计算机科学与技术</span></dd>
                 <!--<dd><strong>工作年限:</strong> <span>5年+【实际4年+(含大四期间实习),多出来的是加班加出来的,你懂得】</span></dd>-->
                     <dd><strong>业余爱好:</strong> <span>科幻电影,推理电影,Geek盛会,球类运动</span></dd>
@@ -115,16 +115,17 @@
                             <li>1、 深谙常用的数据结构,如：Collection、Map等，了解其适用场景，略读过部分常用数据结构JDK源码</li>
                             <li>2、 熟悉多线程并发下常用数据结构，对线程池框架略有研究，略读过常用的几种数据结构的JDK源码</li>
                             <li>3、 了解锁相关的数据结构(synchronized、Lock、Condition、ThreadLocal),略读过Lock的JDK源码</li>
-                            <li>4、 熟悉Java的反射机制，在开发过程中能熟练使用反射机制对大对象的属性设置值</li>
-                            <li>5、 了解JVM内存模型、Java GC机制，可以通过工具查看JVM信息并根据信息进行代码的调优、JVM调优</li>
-                            <li>6、 熟悉RPC和Webservice技术，能根据不同场景采用这两种技术开发客户端、服务端通信的应用程序</li>
-                            <li>7、 熟悉Nutz框架(被认为是SSH框架的最佳替代)，所有Web均为基于此框架的MVC三层架构实现</li>
-                            <li>8、 深刻理解设计模式的开闭原则(总纲)、单一职责原则等，了解常用的设计模式</li>
-                            <li>9、 在设计模式原则和读过的一些JDK源码指导下，对代码有洁癖，不能忍受不遵循设计原则和MVC三层设计的代码</li>
-                            <li>10、熟悉常用的linux的命令，曾编写过产品安装时，elasticsearch的JVM内存分配的shell脚本</li>
-                            <li>11、熟悉常用的windows CMD命令，曾编写过产品安装时，elasticsearch的JVM内存分配的bat脚本</li>
-                            <li>12、了解iss(innosetup)脚本，曾编写过iss脚本与shell脚本的接口</li>
-                            <li>13、热衷技术，自学能力强，通过不懈的坚持，完成斯坦福大学吴恩达(Andrew Ng)教授讲授的机器学习课程，并获得认证证书</li>
+                            <li>4、 熟悉Java的IO/NIO，能在开发过程中正确使用该数据结构进行文件读写操作</li>
+                            <li>5、 熟悉Java的反射机制，在开发过程中能熟练使用反射机制对大对象的属性设置值</li>
+                            <li>6、 了解JVM内存模型、Java GC机制，可以通过工具查看JVM信息并根据信息进行代码的调优、JVM调优</li>
+                            <li>7、 熟悉RPC和Webservice技术，能根据不同场景采用这两种技术开发客户端、服务端通信的应用程序</li>
+                            <li>8、 熟悉Nutz框架(被认为是SSH框架的最佳替代)，所有Web均为基于此框架的MVC三层架构实现</li>
+                            <li>9、 深刻理解设计模式的开闭原则(总纲)、单一职责原则等，了解常用的设计模式</li>
+                            <li>10、在设计模式原则和读过的一些JDK源码指导下，对代码有洁癖，不能忍受不遵循设计原则和MVC三层设计的代码</li>
+                            <li>11、熟悉常用的linux的命令，曾编写过产品安装时，elasticsearch的JVM内存分配的shell脚本</li>
+                            <li>12、熟悉常用的windows CMD命令，曾编写过产品安装时，elasticsearch的JVM内存分配的bat脚本</li>
+                            <li>13、了解iss(innosetup)脚本，曾编写过iss脚本与shell脚本的接口</li>
+                            <li>14、热衷技术，自学能力强，通过不懈的坚持，完成斯坦福大学吴恩达(Andrew Ng)教授讲授的机器学习课程，并取得相关资格认证</li>
                           </ul>
                         </li>
                     </ul>
@@ -323,16 +324,31 @@
                             <div class="circle"></div>
                             <h4>产品研发-分布式关联分析系统</h4>
                             <p><strong>介绍：</strong>关联分析中心建设思路旨在南方电网项目中独立出关联分析中心，从而减轻系
-                              对CPU的消耗，提升产品运行速度。关联分析中心是未来承载TSOC管理平台的事件规则告警的分析中心，实
-                              现事件分析独立分布式的处理建设目标。
+                              对CPU的消耗，提升产品运行速度。关联分析中心是未来承载TSOC安全管理平台的事件规则告警的分析中心，
+                              实现事件分析独立分布式的处理建设目标。
                             </p>
-                            <p><strong>负责：</strong>目前项目刚启动,已经完成的主要功能有TMS消息服务。TMS目前支持两种
-                              传输方式：MessageClient和RemoteClient，可以按照实际需要选择合适的传输类型。MessageClient：
+                            <p><strong>负责：</strong>目前项目刚启动,已经完成的主要功能有TMS消息服务(即：RPC服务)。TMS目前
+                              支持两种传输方式：MessageClient和RemoteClient，可以按照实际需要选择合适的传输类型。MessageClient：
                               支持点对点单向传输，由客户端发送到服务器，传输数据支持缓存，能够实现断点续传。	RemoteClient：
                               支持多点双向传输，由客户端发送到服务器，服务器可以返回数据，也可以不返回，直接作为单向传输，但
                               是都不支持缓存，无法实现断点续传。
                             </p>
-                            <p><strong>技术栈：</strong>消息服务中间件：Kafka、RocketMQ、Redis等【尚未定论】;数据转发器</p>
+                            <p><strong>技术栈：</strong>
+                              <ul>
+                                  <li>
+                                  （0）TMS:即传统意义上的RPC，TMS目前是公司自己基于github上开源的Kryonet封装的
+                                  一套类似于RPC框架(类似于：dubbo、netty等RPC框架);
+                                  </li>
+                                  <li>
+                                  （1）Kryonet：它是一个Java库，它为高效的TCP和UDP客户端/服务器网络通信提供了一个干净简单的API，使用NIO;
+                                    KryoNet使用Kryo串行化库自动和有效地将对象图传输到整个网络;Kryonet围绕着RPC的核心来实现，主要包含：服务端启动服务、
+                                    连接客户端、注册类、协议TCP/UDP、缓冲大小、线程、LAN 服务发现、可插拔的序列化、RMI
+                                  </li>
+                                  <li>
+                                  （2）消息服务中间件：Kafka、RocketMQ、Redis等【尚在选型】;数据转发器
+                                  </li>
+                              </ul>
+                              </p>
                             <img src="img/4-CR_start.png" data-action="zoom" width="250px">
                         </li>
                         <li>
@@ -433,7 +449,7 @@
                     <ul class="exp">
                         <li>
                             <div class="circle"></div>
-                            <h4>毕业设计-DRP分销系统设计实现</h4>
+                            <h4>完成大学毕业设计-DRP分销系统设计实现</h4>
                             <p><strong>介绍：</strong>
                               <ul>
                                   <li>学校属于3+1教学模式，因此大四组织到校企合作公司进行生产实习，在生产实习期间完成学校课程设计.生产实习期间通过自学相关Java Web应用开发相关
