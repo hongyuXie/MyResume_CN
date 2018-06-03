@@ -138,23 +138,27 @@
                       <div class="demo_line_02" style="margin-bottom:20px;"><span>Java Web相关【开始】</span></div>
                        <li>
                             <div class="circle"></div>
-                            <h4>产品研发-日志采集系统</h4>
-                            <p><strong>介绍：</strong>针对不同的应用通过授权，能够采用不同的采集方式，
-                              同时，对已部署的系统，应该能够不断的添加新开发出来的采集方式，
-                              因此插件模式也就应运而生。
-                            在采集器(模块)中，每一种采集方式都被定义为一个插件，
-                            这个插件在自己的代码控件中实现本身特有的采集功能，
-                            并自己控制插件配置的保存和读取。
+                            <h4>机票-团票通各相关业务系统</h4>
+                            <p><strong>介绍：</strong>团票通营销活动渠道购买的机票及保险，涉及search、booking、生单、支付、退款各流程涉及的三十多个业务子系统功能。
                             </p>
-                            <p><strong>负责：</strong>各采集插件服务的研发工作，目前实现的主要的采集插件有:apache、iis、
-                              jdbc(区分不同数据库类型，主要有oracle;sqlserver;mysql;db2等)、mysql、
-                              oracle、mysql、textfile、textfilepath等。
+                            <p><strong>负责：</strong>1、完成保险信息的生单与订单详情查询部分；采用模板模式封装各个险种的生单流程，使得险种易于扩展，
+                              使用工厂方法模式封装各个险种的生单Bean，业务层只需要持有工厂Bean的引用，根据险种类型获取具体的险种生单Bean；机票单生单
+                              不保险单生单采用同步方式，机票单生单成功后再生保险单，保险单生单失败机票单按丌搭售保险逻辑正常走支付流程。
+                              2、根据系统的监控，对原有search逻辑的维护、线上bug以及故障修复。
                             </p>
-                            <p><strong>技术栈：</strong>quartz框架，实时多线程任务调度；nutz框架</p>
-                            <img src="img/0-Collector_login.png" data-action="zoom" width="260px">
-                            <img src="img/1-Collector_start.png" data-action="zoom" width="260px">
                         </li>
+                        <li>
+                             <div class="circle"></div>
+                             <h4>机票-收益相关业务系统</h4>
+                             <p><strong>介绍：</strong>机票收益相关业务系统，根据内置的一些指令实时获取包机相关客座率等相关信息，进行自动的调舱，如：升舱、
+                               降舱、补仓等，从而实现包机业务的最大收益。同时开发相关图表功能，直观查看收益相关信息，如客座率、日上客差值、竞比环比、收入等。
+                             </p>
+                             <img src="img/pStruc.png" data-action="zoom" width="260px">
+                             <img src="pCore.png" data-action="zoom" width="260px">
+                             <img src="an.png" data-action="zoom" width="260px">
+                         </li>
                     </ul>
+                    <h3><img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=c139cb0de6cd7b89ed6c3d813f254291/2f738bd4b31c8701b4b57921277f9e2f0608fff2.jpg" data-action="zoom"><span>启明星辰（2015.9 -2017.9）</span></h3>
                     <ul class="exp">
                        <li>
                             <div class="circle"></div>
