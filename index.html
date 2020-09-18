@@ -193,10 +193,10 @@
                                件便会产生告警通知客户，是否进行处理。
                             </p>
                             <p><strong>技术栈：</strong>
-                              <ul>
-                                  <li>前端栈：Jquery；统计分析图表展示框架：echarts。</li>
-                                  <li>后端栈：elasticsearch用于快速检索，kibana用于分析展示，nutz框架等。</li>
-                              </ul>
+                              <p>
+                              前端栈：Jquery；统计分析图表展示框架：echarts。</br>
+                              后端栈：elasticsearch用于快速检索，kibana用于分析展示，nutz框架等</br>
+                              </p>
                             </p>
                             <p><strong>软技能：</strong>
                               <ul>
@@ -223,21 +223,12 @@
                               是都不支持缓存，无法实现断点续传。
                             </p>
                             <p><strong>技术栈：</strong>
-                              <ul>
-                                  <li>
-                                  （0）TMS:即传统意义上的RPC，TMS目前是公司自己基于github上开源的Kryonet封装的
-                                  一套类似于RPC框架(类似于：dubbo、netty等RPC框架);
-                                  </li>
-                                  <li>
-                                  （1）Kryonet：它是一个Java库，它为高效的TCP和UDP客户端/服务器网络通信提供了一个干净简单的API，使用NIO;
-                                    KryoNet使用Kryo串行化库自动和有效地将对象图传输到整个网络;Kryonet围绕着RPC的核心来实现，主要包含：服务端启动服务、
-                                    连接客户端、注册类、协议TCP/UDP、缓冲大小、线程、LAN 服务发现、可插拔的序列化、RMI
-                                  </li>
-                                  <li>
-                                  （2）消息服务中间件：Kafka、RocketMQ、Redis等【尚在选型】;数据转发器
-                                  </li>
-                              </ul>
-                              </p>
+                               <p>
+                              （0）TMS:即传统意义上的RPC，TMS目前是公司自己基于github上开源的Kryonet封装的一套类似于RPC框架(类似于：dubbo、netty等RPC框架);</br>
+                              （1）Kryonet：它是一个Java库，它为高效的TCP和UDP客户端/服务器网络通信提供了一个干净简单的API，使用NIO;KryoNet使用Kryo串行化库自动和有效地将对象图传输到整个网络;Kryonet围绕着RPC的核心来实现，主要包含：服务端启动服务、连接客户端、注册类、协议TCP/UDP、缓冲大小、线程、LAN 服务发现、可插拔的序列化、RMI</br>
+                              （2）消息服务中间件：Kafka、RocketMQ、Redis等【尚在选型】;数据转发器</br>
+                               </p>
+                            </p>
                             <img src="img/4-CR_start.png" data-action="zoom" width="250px">
                         </li>
                         <li>
@@ -262,18 +253,18 @@
                             </p>
                             <p><strong>负责:</strong>
                               1、针对windows系统：
-                              <ul>
-                                  <li>（0）自动化代码编译、打包的shell脚本实现；</li>
-                                  <li>（1）采用innosetup进行压制成exe，通过iss脚本实现；</li>
-                                  <li>（2）iss脚本和bat脚本做安装接口：针对安装包安装，需启动各类服务，如：tomcat，es，db,java等服务；</li>
-                                  <li>（3）iss脚本和bat脚本做卸载接口：针对安装包卸载，需清空安装目录；</li>
-                                  <li>（4）iss脚本和bat脚本做elasticsearch服务内存分配接口，根据es官网给出的建议es内存分配机制进行合理的分配jvm内存。</li>
-                              </ul>
+                               <p>
+                               （0）自动化代码编译、打包的shell脚本实现；</br>
+                               （1）采用innosetup进行压制成exe，通过iss脚本实现；</br>
+                               （2）iss脚本和bat脚本做安装接口：针对安装包安装，需启动各类服务，如：tomcat，es，db,java等服务；</br>
+                               （3）iss脚本和bat脚本做卸载接口：针对安装包卸载，需清空安装目录；</br>
+                               （4）iss脚本和bat脚本做elasticsearch服务内存分配接口，根据es官网给出的建议es内存分配机制进行合理的分配jvm内存。</br>
+                               </p>
                               2、针对linux系统：
-                              <ul>
-                                  <li>（0）同上；</li>
-                                  <li>（1）不需要第三方工具压制，直接调用linux系统的tar -czvf命令；</li>
-                              </ul>
+                                <p>
+                               （0）同上；</br>
+                               （1）不需要第三方工具压制，直接调用linux系统的tar -czvf命令；</br>
+                                </p>
                             </p>
                             <p><strong>技术栈：</strong>
                               <ul>
@@ -288,34 +279,29 @@
                             <div class="circle"></div>
                             <h4>定制项目-航遥中心数据分发系统</h4>
                             <p><strong>介绍：</strong>
-                              <ul>
-                                  <li>（0）数据查询检索：实现用户对遥感影像产品、专题产品及其它相关数据检索</li>
-                                  <li>（1）服务门户模块：在此系统提供了新闻发布功能、产品介绍功能、工具下载功能、信息共享功能</li>
-                                  <li>（2）订单管理：用来实现用户对已有订单、再加工订单、数据需求单、常规需求单的管理，包括订单查询、订单状态跟踪与统计分析、订单内容修改删除、订单取消等功能</li>
-                                  <li>（3）数据同步：同步基础数据支撑平台数据到信息共享与服务系统数据库；实现将内网经过筛选后的元数据和快视图数据同步到外网系统的功能；产品订单进行内网导出，可以为外网订单进行导入做好数据支撑</li>
-                              </ul>
+                              <p>
+                              （0）数据查询检索：实现用户对遥感影像产品、专题产品及其它相关数据检索</br>
+                              （1）服务门户模块：在此系统提供了新闻发布功能、产品介绍功能、工具下载功能、信息共享功能</br>
+                              （2）订单管理：用来实现用户对已有订单、再加工订单、数据需求单、常规需求单的管理，包括订单查询、订单状态跟踪与统计分析、订单内容修改删除、订单取消等功能</br>
+                              （3）数据同步：同步基础数据支撑平台数据到信息共享与服务系统数据库；实现将内网经过筛选后的元数据和快视图数据同步到外网系统的功能；产品订单进行内网导出，可以为外网订单进行导入做好数据支撑</br>
+                              </p>
                             </p>
                             <p><strong>负责：</strong>
                               订单管理模块的开发与维护
                             </p>
                             <p><strong>技术栈：</strong>
-                              前端栈：
-                              <ul>
-                                <li>DWR框架</li>
-                                <li>统计分析图表展示框架：highcharts</li>
-                              </ul>
-                              后端栈：
-                              <ul>
-                                <li>基本环境：jdk1.6+tomcat6.0+oracle11g+Arcgis</li>
-                                <li>SSH框架</li>
-                              </ul>
+                              <p>
+                              DWR框架</br>
+                              统计分析图表展示框架：highcharts</br>
+                              后端栈：</br>
+                              基本环境：jdk1.6+tomcat6.0+oracle11g+Arcgis</br>
+                              SSH框架</br>
+                              </p>
                             </p>
                             <p><strong>软技能：</strong>
-                              <ul>
-                                <li>需求文档编写</li>
-                                <li>概要设计文档</li>
-                                <li>功能界面原型设计：Axure RP Pro 7.0</li>
-                              </ul>
+                              需求文档编写</br>
+                              概要设计文档</br>
+                              功能界面原型设计：Axure RP Pro 7.0</br>
                             </p>
                         </li>
                         <li>
@@ -323,20 +309,17 @@
                             <h4>定制项目-军工数据分发系统和应用调度系统</h4>
                             <p><strong>介绍：</strong>
                               项目包含5个子系统：
-                              <ul>
-                                <li>（0）资料存档管理子系统</li>
-                                <li>（1）查询检索子系统</li>
-                                <li>（2）产品分发子系统</li>
-                                <li>（3）产品定制服务子系统</li>
-                                <li>（4）应用调度子系统</li>
-                              </ul>
-                            </p>
-                            <p><strong>负责：</strong>
-                              <ul>
-                                <li>（0）产品分发子系统</li>
-                                <li>（1）应用调度子系统</li>
-                              </ul>
-                            </p>
+                              <p>
+                              （0）资料存档管理子系统</br>
+                              （1）查询检索子系统</br>
+                              （2）产品分发子系统</br>
+                              （3）产品定制服务子系统</br>
+                              （4）应用调度子系统</br>
+                              负责：</br>
+                              （0）产品分发子系统</br>
+                              （1）应用调度子系统</br>
+                              </p>
+                            </p>                         
                             <p><strong>技术栈：</strong>同上-->定制项目-航遥中心数据分发系统</p>
                         </li>
                         <div class="demo_line_02" style="margin-bottom:20px;"><span>Java Web相关【结束】</span></div>
@@ -369,20 +352,20 @@
                              <img src="img/Machine_Learning_Frame.png" data-action="zoom" width="260px">
                           </p>
                           <p><strong>涵盖内容:</strong>
-                            <ul>
-                              <li>Linear Regression 线性回归</li>
-                              <li>Logistic Regression 逻辑回归</li>
-                              <li>Neural Networks 神经网络</li>
-                              <li>Support Vector Machines 支持向量机</li>
-                              <li>K-means Clustering K-means聚类算法</li>
-                              <li>Principal Components 主成分分析</li>
-                              <li>Analysis 分析</li>
-                              <li>Anomaly Detection 异常检测</li>
-                              <li>Collaborative Filtering 协同过滤</li>
-                              <li>Object Recognition 模式/目标识别</li>
-                              <li>Matlab 数学分析软件Matlab使用</li>
-                              <li>Octave 数学分析软件Octave使用</li>
-                            </ul>
+                            <p>
+                            Linear Regression 线性回归</br>
+                            Logistic Regression 逻辑回归</br>
+                            Neural Networks 神经网络</br>
+                            Support Vector Machines 支持向量机</br>
+                            K-means Clustering K-means聚类算法</br>
+                            Principal Components 主成分分析</br>
+                            Analysis 分析</br>
+                            Anomaly Detection 异常检测</br>
+                            Collaborative Filtering 协同过滤</br>
+                            Object Recognition 模式/目标识别</br>
+                            Matlab 数学分析软件Matlab使用</br>
+                            Octave 数学分析软件Octave使用</br>
+                            </p>
                           </p>
                           <p><strong>最初的最初：</strong>是个人对人工智能领域的热爱；热爱各类科幻电影，并认为只有想不到的，没有做不到的；科幻最终一定会走出银幕，成为现实。</p>
                           <p><strong>后来的后来：</strong>与Andrew Ng的清华大学的一面之缘，从此埋下了一颗种子；后来，基于个人对<a href="http://baike.baidu.com/l/jKGuHSvf?bk_share=copy" target="_blank"><i class="icon-link"></i>Andrew Ng</a>
@@ -408,10 +391,10 @@
                              成对未识别过的日志格式进行自动解析和识别的方法，来增加SOC对不同日志的兼容性和适配能力。
                            </p>
                            <p><strong>负责：</strong>
-                             <ul>
-                               <li>（0）机器学习的研究</li>
-                               <li>（1）方案预研究</li>
-                             </ul>
+                             <p>
+                             （0）机器学习的研究</br>
+                             （1）方案预研究</br>
+                             </p>
                            </p>
                        </li>
                       <div class="demo_line_02" style="margin-bottom:20px;"><span>机器学习相关【结束】</span></div>
