@@ -251,25 +251,23 @@
                               相关服务器上，我们需要形成一个产品包。这就需要一个便捷的工具，实现产品源码的编译，打包，针对不同操作系统，如linux是一个
                               tar包，而windows是一个exe的可执行安装包。
                             </p>
-                            <p><strong>负责:</strong>
-                              1、针对windows系统：
+                            <p><strong>负责:</strong>  
                                <p>
+                                1、针对windows系统：
                                （0）自动化代码编译、打包的shell脚本实现；</br>
                                （1）采用innosetup进行压制成exe，通过iss脚本实现；</br>
                                （2）iss脚本和bat脚本做安装接口：针对安装包安装，需启动各类服务，如：tomcat，es，db,java等服务；</br>
                                （3）iss脚本和bat脚本做卸载接口：针对安装包卸载，需清空安装目录；</br>
                                （4）iss脚本和bat脚本做elasticsearch服务内存分配接口，根据es官网给出的建议es内存分配机制进行合理的分配jvm内存。</br>
-                               </p>
-                              2、针对linux系统：
+                               </p> 
                                 <p>
+                                2、针对linux系统：
                                （0）同上；</br>
                                （1）不需要第三方工具压制，直接调用linux系统的tar -czvf命令；</br>
                                 </p>
                             </p>
                             <p><strong>技术栈：</strong>
-                              <ul>
-                                  <li>linux、shell、innosetup(iss)、bat、ssh</li>
-                              </ul>
+                              linux、shell、innosetup(iss)、bat、ssh
                             </p>
                         </li>
                     </ul>
