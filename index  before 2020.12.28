@@ -1,0 +1,464 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@hongyuXie 
+hongyuXie
+/
+MyResume_CN
+0
+4
+3
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+MyResume_CN/index.html
+@hongyuXie
+hongyuXie Update index.html
+Latest commit 49239a0 on 21 Sep
+ History
+ 1 contributor
+420 lines (418 sloc)  37.1 KB
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>谢虹宇的简历</title>
+    <meta name="description" content="我是一个充满活力，乐于分享，善于交流的“技术控！”">
+    <meta name="keywords" content="java">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <link rel="stylesheet" href="lib/zoom.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-48084758-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <style type="text/css">
+      .demo_line_02{
+          height: 1px;
+          border-top: 1px solid #00A1D6;
+          text-align: center;
+      }
+      .demo_line_02 span{
+          color:white;
+          position: relative;
+          top: -8px;
+          background: #00A1D6;
+          padding: 0 20px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="title">
+                <img src="img/mylife.jpg" data-action="zoom"/>
+                <h1>谢虹宇的简历</h1>
+                <h2>(゜-゜)つロ 干杯~</h2>
+            </div>
+            <ul class="side-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Contact. 联系方式</dt>
+                    <dd><i class="icon-phone-1"></i>电话: 156-0051-0487;</br>156-01042995</dd>
+                    <dd><i class="icon-mail-alt"></i>邮箱: <a href="mailto:1990xhy@gmail.com" target="_blank">1990xhy@gmail.com</a></dd>
+                    <dd><i class="icon-wechat"></i>微信: xhy1990xhy</dd>
+                    <dd><i class="icon-qq"></i>QQ: <a href="http://wpa.qq.com/msgrd?v=3&uin=489632554&site=qq&menu=yes" target="_blank">489632554</a></dd>
+                </li>
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Application. 应聘岗位</dt>
+                    <dd><strong>Java 技术分享师</strong></dd>
+                    <dd><strong>Java</strong></dd>
+                    <dd><strong>机器学习工程师【Java】</strong></dd>
+                </li>
+            </ul>
+            <div style="margin-top:20px" class="someRight">
+                <p>我是一个热爱技术，乐于分享，乐于交流技术的“技术控”。分享让快乐，交流让我睿智！</p>
+                <p>我目前正在寻找一份可以让我可以随时分享我所钟爱的技术的java相关工作。希望缘分让我们友谊的小船走向远方。</p>
+            </div>
+        </div>
+        <div class="main">
+            <ul class="main-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
+                    <dd><strong>个人信息:</strong> <span>谢虹宇 / 女</span></dd>
+                    <dd><strong>毕业院校:</strong> <span>东北大学(2010-2014)</span></dd>
+                    <dd><strong>院校性质:</strong> <span>985、211(统招)</span></dd>
+                    <dd><strong>主修专业:</strong> <span>计算机科学与技术</span></dd>
+                    <dd><strong>业余爱好:</strong> <span>科幻电影,推理电影,Geek盛会,球类运动</span></dd>
+                    <dd><strong>GitHub个人仓库:</strong> <a href="https://github.com/hongyuXie" target="_blank">github.com/hongyuXie</a><iframe src="https://img.shields.io/github/stars/hongyuXie/hongyuXie.github.io.svg?style=social&amp;label=Star" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></dd>
+                    <dd><strong>GitHub技术博客:</strong> <a href="https://hongyuxie.github.io/" target="_blank">hongyuxie.github.io/</a></dd>
+                    <dd><strong>CSDN技术博客:</strong> <a href="http://blog.csdn.net/loverain90" target="_blank">blog.csdn.net/loverain90</a></dd>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>Skill. 技能清单</dt>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>总览</h4>
+                           <p>
+                              <img style="margin-left:20px" width="100px" src="img/skills/1-MachineLearning.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1600419225184&amp;di=0ba1cbc8d31a9c0c07522ca2b3892399&amp;imgtype=0&amp;src=http%3A%2F%2Fmedia-image1.baydn.com%2Fe77baec0ceb4023aac0cae14f009df3a08b8b7abb549604b0521409267b2bf28.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://nutzam.com/imgs/nutz_logo28.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1600419547968&amp;di=297f1ca7d1dd44430edc07da2b09ecc7&amp;imgtype=0&amp;src=http%3A%2F%2Fchenzhifei.com%2Fuploads%2F200130%2F1-200130110419C5.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="img/skills/2-spring.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="http://static.jboss.org/hibernate/images/hibernate_logo_whitebkg_200px.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1038555763,64226307&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3887002487,1825727877&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2352512959,2540248060&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1538809331,4193108524&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1600419731116&amp;di=8452986abe1427cee4a22ef2ecd0ba49&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171120%2F1baa0e62e38545949c3e77bc06e886ba.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://www.heidisql.com/images/heidisql_logo.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1193675464,2718532086&amp;fm=27&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2754405500,3584735356&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2556322121,2805657912&amp;fm=15&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2011026665,3905182480&amp;fm=27&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1600419914662&amp;di=60f8a38b20674241a978c4c4036b96ed&amp;imgtype=0&amp;src=http%3A%2F%2Fs3.cn-north-1.amazonaws.com.cn%2Fassets.xmind.cn%2Fwww%2Fassets%2Fimages%2Fzen%2Fhero%2Flogo-f92e625441.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1264278801,3255385409&amp;fm=58&amp;u_exp_0=697245186,2922079999&amp;fm_exp_0=86&amp;bpow=320&amp;bpoh=320" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="img/skills/3-TortoiseGit.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2630828062,1570406977&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="http://amwiki.org/official/img/logo.png" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3737327242,3424905055&amp;fm=27&amp;gp=0.jpg" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=814279469,4196014904&amp;fm=58&amp;bpow=939&amp;bpoh=719&amp;u_exp_0=627300365,3879247771&amp;fm_exp_0=86" data-action="zoom">
+                              <img style="margin-left:20px" width="100px" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=510599890,941826124&amp;fm=26&amp;gp=0.jpg" data-action="zoom">
+                             <!-- <img style="margin-left:20px" width="100px" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2906248828,2505769673&amp;fm=15&amp;gp=0.jpg" data-action="zoom">  -->  
+                              <img style="margin-left:20px" width="100px" src="img/skills/4-AI-Coureses.png" data-action="zoom">
+                            </p>
+                        </li>
+                        <li>
+                          <p>
+                            1、 Java基础扎实，深刻理解MVC思想</br> 
+                            2、 深谙常用的数据结构,如：Collection、Map等，了解其适用场景，略读过部分常用数据结构JDK源码</br> 
+                            3、 熟悉多线程并发下常用数据结构，对线程池框架略有研究，略读过并发包下常用的几种数据结构的JDK源码</br> 
+                            4、 了解锁机制及其相关数据结构(synchronized、Lock、volatile、ThreadLocal)，熟悉其适用场景</br> 
+                            5、 熟悉JVM相关知识：JVM类加载、JVM内存模型、Java GC机制等，并能通过工具查看JVM信息并根据信息进行代码的调优、JVM调优、及时排查与解决OOM和SOF问题</br> 
+                            6、 熟悉Java的IO/NIO/AIO，能在开发过程中正确使用该数据结构进行文件读写操作</br> 
+                            7、 熟悉Java的反射机制，在开发过程中能熟练使用反射机制对大对象的属性设置值</br> 
+                            8、 熟悉RPC和Webservice技术，能根据不同场景采用这两种技术开发客户端、服务端通信的应用程序</br> 
+                            9、 深刻理解设计模式的开闭原则(总纲)、单一职责原则等，了解并能在开发过程中使用常用的设计模式进行开发</br> 
+                            10、熟悉Nutz框架开发(被认为是SSH框架的最佳替代)</br> 
+                            11、在设计模式原则和读过的一些JDK源码指导下，对代码有洁癖，不能忍受不遵循设计原则和MVC三层设计的代码</br> 
+                            12、熟悉常用的linux的命令，曾编写过产品安装时，elasticsearch的JVM内存分配的shell脚本</br> 
+                            13、熟悉常用的windows CMD命令，曾编写过产品安装时，elasticsearch的JVM内存分配的bat脚本</br> 
+                            14、了解iss(innosetup)脚本，曾编写过iss脚本与shell脚本的接口</br> 
+                            15、时刻保持对前沿技术的热证，自学能力强，通过利用假日等空余时间，自学完成斯坦福大学吴恩达(Andrew Ng)教授讲授的机器学习课程，并取得相关资格认证</br>
+                         </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>Experience. 项目与工作经验</dt>
+                    <h3><img src="https://source.qunarzz.com/common/hf/logo.png" data-action="zoom"><span>去哪儿网（2017.11 - 2018.11）</span></h3>
+                    <ul class="exp">
+                      <div class="demo_line_02" style="margin-bottom:20px;"><span>Java Web相关【开始】</span></div>
+                       <li>
+                            <div class="circle"></div>
+                            <h4>机票-团票通各相关业务系统</h4>
+                            <p><strong>介绍：</strong>团票通营销活动渠道购买的机票及保险，涉及search、booking、生单、支付、退款各流程涉及的三十多个业务子系统功能。
+                            </p>
+                            <p><strong>负责：</strong>1、完成保险信息的生单与订单详情查询部分；采用模板模式封装各个险种的生单流程，使得险种易于扩展，
+                              使用工厂方法模式封装各个险种的生单Bean，业务层只需要持有工厂Bean的引用，根据险种类型获取具体的险种生单Bean；机票单生单
+                              不保险单生单采用同步方式，机票单生单成功后再生保险单，保险单生单失败机票单按丌搭售保险逻辑正常走支付流程。
+                              2、根据系统的监控，对原有search逻辑的维护、线上bug以及故障修复。
+                            </p>
+                        </li>
+                        <li>
+                             <div class="circle"></div>
+                             <h4>机票-收益相关业务系统</h4>
+                             <p><strong>介绍：</strong>机票收益相关业务系统，根据内置的一些指令实时获取包机相关客座率等相关信息，进行自动的调舱，如：升舱、
+                               降舱、补仓等，从而实现包机业务的最大收益。同时开发相关图表功能，直观查看收益相关信息，如客座率、日上客差值、竞比环比、收入等。
+                             </p>
+                             <img src="img/pStruc.png" data-action="zoom" width="260px">
+                             <img src="img/pCore.png" data-action="zoom" width="260px">
+                             <img src="img/an.png" data-action="zoom" width="520px">
+                         </li>
+                    </ul>
+                    <h3><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=986513208,1413884447&fm=26&gp=0.jpg" data-action="zoom"><span>启明星辰（2015.11 -2017.11）</span></h3>
+                    <ul class="exp">
+                       <li>
+                            <div class="circle"></div>
+                            <h4>产品研发-日志采集系统</h4>
+                            <p><strong>介绍：</strong>针对不同的应用通过授权，能够采用不同的采集方式，
+                              同时，对已部署的系统，应该能够不断的添加新开发出来的采集方式，
+                              因此插件模式也就应运而生。
+                            在采集器(模块)中，每一种采集方式都被定义为一个插件，
+                            这个插件在自己的代码控件中实现本身特有的采集功能，
+                            并自己控制插件配置的保存和读取。
+                            </p>
+                            <p><strong>负责：</strong>各采集插件服务的研发工作，目前实现的主要的采集插件有:apache、iis、
+                              jdbc(区分不同数据库类型，主要有oracle;sqlserver;mysql;db2等)、mysql、
+                              oracle、mysql、textfile、textfilepath等。
+                            </p>
+                            <p><strong>技术栈：</strong>quartz框架，实时多线程任务调度；nutz框架</p>
+                            <img src="img/0-Collector_login.png" data-action="zoom" width="260px">
+                            <img src="img/1-Collector_start.png" data-action="zoom" width="260px">
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>产品研发-日志审计系统</h4>
+                            <p><strong>介绍：</strong>系统总13个一级模块，若干二三级模块。系统能实时采集企业和组织中各种不同厂商的安全设备、
+                              网络设备、主机、操作系统、以及各种应用系统产生的日志、事件、报警等信息，并将数据信息汇集到审计中心，进行集中存储、
+                              展现、查询和审计。产品解决安全行业中：各种安全产品及设备的日志数据通常杂乱无序，同时也无法体现它们之间的相互关系。
+                              因此日志审计系统就是为解决这些问题建立起一个信息交换、信息存储、信息处理的平台，通过该平台，可以对各类产品的日志、
+                              事件进行统一管理、分析。
+                            </p>
+                            <p><strong>负责：</strong>目前主要是规则、审计、告警三个一级模块的研发和维护等工作。其中，规则指的是审计的前提，告警
+                               是审计的结果。此三个模块是日志审计的核心所在。规则作为最基础的部件，规则配置的条件面板采用了插件式的设计。实时采集的
+                               syslog日志通过某种机制从采集器转发过来后，通过日志范式化后形成可读性较高的结构化数据，即：事件，针对匹配规则的某些事
+                               件便会产生告警通知客户，是否进行处理。
+                            </p>
+                            <p><strong>技术栈：</strong>
+                              <p>
+                              前端栈：Jquery；统计分析图表展示框架：echarts。</br>
+                              后端栈：elasticsearch用于快速检索，kibana用于分析展示，nutz框架等</br>
+                              </p>
+                            </p>
+                            <p><strong>软技能：</strong>
+                              <p>
+                              原型设计：Axure RP Pro 7.0</br>
+                              设计文档：Word2010;Visio2010;Project2010</br>
+                              分析工具：思维导图Mindjet</br>
+                              进度规划：甘特图</br>
+                              </p>
+                            </p>
+                            <img src="img/2-SA_login.png" data-action="zoom" width="260px">
+                            <img src="img/3-SA_start.png" data-action="zoom" width="260px">
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>产品研发-分布式关联分析系统</h4>
+                            <p><strong>介绍：</strong>关联分析中心建设思路旨在南方电网项目中独立出关联分析中心，从而减轻系
+                              对CPU的消耗，提升产品运行速度。关联分析中心是未来承载TSOC安全管理平台的事件规则告警的分析中心，
+                              实现事件分析独立分布式的处理建设目标。
+                            </p>
+                            <p><strong>负责：</strong>完成的主要功能有TMS消息服务(即：RPC服务)。TMS目前
+                              支持两种传输方式：MessageClient和RemoteClient，可以按照实际需要选择合适的传输类型。MessageClient：
+                              支持点对点单向传输，由客户端发送到服务器，传输数据支持缓存，能够实现断点续传。	RemoteClient：
+                              支持多点双向传输，由客户端发送到服务器，服务器可以返回数据，也可以不返回，直接作为单向传输，但
+                              是都不支持缓存，无法实现断点续传。
+                            </p>
+                            <p><strong>技术栈：</strong>
+                               <p>
+                              （0）TMS:即传统意义上的RPC，TMS目前是公司自己基于github上开源的Kryonet封装的一套类似于RPC框架(类似于：dubbo、netty等RPC框架);</br>
+                              （1）Kryonet：它是一个Java库，它为高效的TCP和UDP客户端/服务器网络通信提供了一个干净简单的API，使用NIO;KryoNet使用Kryo串行化库自动和有效地将对象图传输到整个网络;Kryonet围绕着RPC的核心来实现，主要包含：服务端启动服务、连接客户端、注册类、协议TCP/UDP、缓冲大小、线程、LAN 服务发现、可插拔的序列化、RMI</br>
+                              （2）消息服务中间件：Kafka、RocketMQ、Redis等【尚在选型】;数据转发器</br>
+                               </p>
+                            </p>
+                            <img src="img/4-CR_start.png" data-action="zoom" width="250px">
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>产品研发-SOC安全管理系统</h4>
+                            <p><strong>介绍：</strong>全面管理，综合分析平台。SOC安全管理系统以 IT 资产为基础，以业务信息系统为核心，
+                              以用户体验为指引，从监控、审计、风险、运维四个维度建立一套可度量的统一业务支撑平台，使得各种用户能够对业
+                              务信息系统进行可用性、性能与服务水平监控，事件分析、审计、预警与响应、风险及态势的度量与评估，标准化、例
+                              行化、常态化的安全流程管控，从而最终实现业务信息系统的持续安全运营。
+                            </p>
+                            <p><strong>负责：</strong>威胁情报功能开发，以及采用elasticsearch默认支持的脚本groovy进行威胁情报的配置，匹配查询等。</p>
+                            <p><strong>技术栈：</strong>基本同上-->产品研发-日志审计系统；新增groovy实现威胁情报脚本匹配查询。</p>
+                            <p><strong>软技能：</strong>完全同上-->产品研发-日志审计系统</p>
+                            <img src="img/SOC.jpg" data-action="zoom" width="250px">
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>产品研发-通用产品打包虚拟机研发</h4>
+                            <p><strong>介绍：</strong>打包，万里长征的最后一步，如何把系统部署到测试人员或最终用户的机器上？为了便捷快速的实现部署到
+                              相关服务器上，我们需要形成一个产品包。这就需要一个便捷的工具，实现产品源码的编译，打包，针对不同操作系统，如linux是一个
+                              tar包，而windows是一个exe的可执行安装包。
+                            </p>
+                            <p><strong>负责:</strong>  
+                               <p>
+                                1、针对windows系统：
+                               （0）自动化代码编译、打包的shell脚本实现；</br>
+                               （1）采用innosetup进行压制成exe，通过iss脚本实现；</br>
+                               （2）iss脚本和bat脚本做安装接口：针对安装包安装，需启动各类服务，如：tomcat，es，db,java等服务；</br>
+                               （3）iss脚本和bat脚本做卸载接口：针对安装包卸载，需清空安装目录；</br>
+                               （4）iss脚本和bat脚本做elasticsearch服务内存分配接口，根据es官网给出的建议es内存分配机制进行合理的分配jvm内存。</br>
+                               </p> 
+                                <p>
+                                2、针对linux系统：
+                               （0）同上；</br>
+                               （1）不需要第三方工具压制，直接调用linux系统的tar -czvf命令；</br>
+                                </p>
+                            </p>
+                            <p><strong>技术栈：</strong>
+                              linux、shell、innosetup(iss)、bat、ssh
+                            </p>
+                        </li>
+                    </ul>
+                    <h3><img src="http://pic.baike.soso.com/p/20140714/bki-20140714141855-540777239.jpg" data-action="zoom"><span>航天宏图（2013.6 - 2015.11）</span></h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>定制项目-航遥中心数据分发系统</h4>
+                            <p><strong>介绍：</strong>
+                              <p>
+                              （0）数据查询检索：实现用户对遥感影像产品、专题产品及其它相关数据检索</br>
+                              （1）服务门户模块：在此系统提供了新闻发布功能、产品介绍功能、工具下载功能、信息共享功能</br>
+                              （2）订单管理：用来实现用户对已有订单、再加工订单、数据需求单、常规需求单的管理，包括订单查询、订单状态跟踪与统计分析、订单内容修改删除、订单取消等功能</br>
+                              （3）数据同步：同步基础数据支撑平台数据到信息共享与服务系统数据库；实现将内网经过筛选后的元数据和快视图数据同步到外网系统的功能；产品订单进行内网导出，可以为外网订单进行导入做好数据支撑</br>
+                              </p>
+                            </p>
+                            <p><strong>负责：</strong>
+                              订单管理模块的开发与维护
+                            </p>
+                            <p><strong>技术栈：</strong>
+                              <p>
+                              DWR框架</br>
+                              统计分析图表展示框架：highcharts</br>
+                              后端栈：</br>
+                              基本环境：jdk1.6+tomcat6.0+oracle11g+Arcgis</br>
+                              SSH框架</br>
+                              </p>
+                            </p>
+                            <p><strong>软技能：</strong>
+                              需求文档编写</br>
+                              概要设计文档</br>
+                              功能界面原型设计：Axure RP Pro 7.0</br>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>定制项目-军工数据分发系统和应用调度系统</h4>
+                            <p><strong>介绍：</strong>
+                              项目包含5个子系统：
+                              <p>
+                              （0）资料存档管理子系统</br>
+                              （1）查询检索子系统</br>
+                              （2）产品分发子系统</br>
+                              （3）产品定制服务子系统</br>
+                              （4）应用调度子系统</br>
+                              负责：</br>
+                              （0）产品分发子系统</br>
+                              （1）应用调度子系统</br>
+                              </p>
+                            </p>                         
+                            <p><strong>技术栈：</strong>同上-->定制项目-航遥中心数据分发系统</p>
+                        </li>
+                        <div class="demo_line_02" style="margin-bottom:20px;"><span>Java Web相关【结束】</span></div>
+                    </ul>
+                    <h3>个人项目</h3>
+                    <ul class="exp">
+                      <div class="demo_line_02" style="margin-bottom:20px;"><span>机器学习相关【开始】</span></div>
+                      <li>
+                          <div class="circle"></div>
+                          <h4>
+                              <span>个人博客-AI【目前仅有：机器学习MachineLearning】</span>
+                              <a href="https://github.com/hongyuXie/hongyuXie.github.io.git" target="_blank"><i class="icon-link"></i>源代码</a>
+                              <iframe src="https://ghbtns.com/github-btn.html?user=hongyuXie&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                          </h4>
+                          <p><strong>简要介绍：</strong>
+                            机器学习是一门研究在非特定编程条件下让计算机采取行动的学科。
+                            最近二十年，机器学习为我们带来了自动驾驶汽车、实用的语音识别、
+                            高效的网络搜索，让我们对人类基因的解读能力大大提高。当今机器
+                            学习技术已经非常普遍，您很可能在毫无察觉情况下每天使用几十次。
+                            本项目涵盖机器学习、数据挖掘和统计模式识别。相关主题包括：
+                            (i) 监督式学习（参数和非参数算法、支持向量机、核函数和神经网络）。
+                            (ii) 无监督学习（集群、降维、推荐系统和深度学习）。
+                            (iii) 机器学习实例（偏见/方差理论；机器学习和AI领域的创新）。
+                            在不同领域应用学习算法，例如智能机器人（感知和控制）、文本理解（网络搜索和垃圾邮件过滤）
+                            、计算机视觉、医学信息学、音频、数据库挖掘等领域。
+                          </p>
+                          <p><strong>资格证书：</strong></p>
+                          <p>
+                             <img src="img/Machine_Learning_Certificate.png" data-action="zoom" width="260px">
+                             <img src="img/Machine_Learning_Frame.png" data-action="zoom" width="260px">
+                          </p>
+                          <p><strong>涵盖内容:</strong>
+                            <p>
+                            Linear Regression 线性回归</br>
+                            Logistic Regression 逻辑回归</br>
+                            Neural Networks 神经网络</br>
+                            Support Vector Machines 支持向量机</br>
+                            K-means Clustering K-means聚类算法</br>
+                            Principal Components 主成分分析</br>
+                            Analysis 分析</br>
+                            Anomaly Detection 异常检测</br>
+                            Collaborative Filtering 协同过滤</br>
+                            Object Recognition 模式/目标识别</br>
+                            Matlab 数学分析软件Matlab使用</br>
+                            Octave 数学分析软件Octave使用</br>
+                            </p>
+                          </p>
+                          <p><strong>最初的最初：</strong>是个人对人工智能领域的热爱；热爱各类科幻电影，并认为只有想不到的，没有做不到的；科幻最终一定会走出银幕，成为现实。</p>
+                          <p><strong>后来的后来：</strong>与Andrew Ng的清华大学的一面之缘，从此埋下了一颗种子；后来，基于个人对<a href="http://baike.baidu.com/l/jKGuHSvf?bk_share=copy" target="_blank"><i class="icon-link"></i>Andrew Ng</a>
+                            的崇拜,当年还没毕业，参加百度在清华大学的招聘宣讲和笔试，和Andrew Ng有过一面之缘，从此特别关注人工智能领域。无意中，发现Andrew Ng原来曾创建过MOOC的平台，从此开始了自学机器学习的漫漫长路。</p>
+                          <p><strong>现在的现在：</strong>经过一年的坚持，终于修完Andrew Ng在Coursera的课程。</p>
+                          <p><strong>以后的以后：</strong>继续跟着Andrew Ng学习，Ng从百度离职以后，创办了<a href="https://www.deeplearning.ai" target="_blank"><i class="icon-link"></i>deeplearning.ai</a>致力于让全世界的人都能通过自学课程，成为AI领域的专家。
+                          </p>
+                          <p>
+                             <img src="img/DeeplearningCoureses.png" data-action="zoom" width="260px">
+                          </p>
+                      </li>
+                      <li>
+                           <div class="circle"></div>
+                           <h4>产品-日志自动范式化系统(预研)</h4>
+                           <p><strong>介绍：</strong>Syslog是一种被广泛应用于日志系统的日志描述格式，SOC作为日志采集和分析系统，
+                             需要从各种不同的系统和设备上采集并分析日志。但大多数系统并没有完全遵守syslog的格式标准，并且具有各种
+                             自身系统所定义的日志格式。这使得SOC在对采集的日志进行解析和抽取所需要的字段（范式化）时，无法做到对所
+                             有日志格式的兼容。目前的解决方案是采用人工编写正则表达式的方法来对不同系统和设备的日志格式进行适配。该
+                             方法存在有一定的弊端，当用户环境中的产生日志的设备因为版本升级日志格式发生调整或者增加了新的未识别过的
+                             设备后，都会使得SOC当前的正则表达式对日志的解析功能失效，这时就需要前线技术人员现场增加可以解析新的日志
+                             格式的正则表达式，但是，由于前线技术人员个人技术的差别加上对SOC所定义的字段和用户日志的理解的不同，会使
+                             得写出的正则表达式错误较多且解析不准确，因此需要设计一种能够在不需要人工干预或者少量人工干预的情况下，完
+                             成对未识别过的日志格式进行自动解析和识别的方法，来增加SOC对不同日志的兼容性和适配能力。
+                           </p>
+                           <p><strong>负责：</strong>
+                             <p>
+                             （0）机器学习的研究</br>
+                             （1）方案预研究</br>
+                             </p>
+                           </p>
+                       </li>
+                      <div class="demo_line_02" style="margin-bottom:20px;"><span>机器学习相关【结束】</span></div>
+                      <div class="demo_line_02" style="margin-bottom:20px;"><span>其他项目【开始】</span></div>
+                      <li>
+                          <div class="circle"></div>
+                          <h4>
+                              <span>个人简历</span>
+                              <dd><strong>GitHub项目地址:</strong><a href="https://github.com/hongyuXie/MyResume_CN.git" target="_blank">MyResume_CN.git</a></dd>
+                              <dd><strong>GitHub访问地址:</strong><a href="https://hongyuxie.github.io/MyResume_CN/" target="_blank">MyResume_CN</a></dd>
+                          </h4>
+                          <p><strong>介绍：</strong>
+                            这是个人的中文在线简历，为了实时更新个人的经历，一劳永逸，特别将此简历做成在线的。后期会在github上新开一个分支，做中英文简历。欢迎star。
+                          </p>
+                      </li>
+                      <div class="demo_line_02" style="margin-bottom:20px;"><span>其他项目【结束】</span></div>
+                    </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Theme by <a href="https://hongyuxie.github.io/MyResume_CN" target="_blank">honyuXie</a>. Made with <i class="icon-heart throb" style="color: #d43f57;"></i> by hongyuXie. <a href="#" target="_blank">PDF 下载</a>. 最后更新于2018年6月6日</p>
+    </footer>
+    <script src="lib/zoom.min.js"></script>
+</body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
